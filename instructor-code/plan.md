@@ -67,8 +67,8 @@
     * init.sql
     * read_words.sql
     * create_word.sql
-    * create_profile.sql
-    * read_profile.sql
+    * create_user.sql
+    * read_user.sql
 
 
 ## NPM Packages
