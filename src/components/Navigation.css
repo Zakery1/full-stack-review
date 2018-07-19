@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: salmon;
+    padding: 10px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}

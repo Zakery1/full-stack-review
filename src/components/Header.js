@@ -4,9 +4,9 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div>
+        <div className="header">
             <h1>Word Bank</h1>
-            <img src={logo} alt="Hands with words on them" />
+            <img className="image" src={logo} alt="Hands with words on them" />
         </div>
     )
 }
