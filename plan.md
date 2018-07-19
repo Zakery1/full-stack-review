@@ -34,6 +34,7 @@
     */
     */profile
     */words
+    
 
 ## Back-end
 
@@ -45,6 +46,7 @@
         *POST 
     * /api/profile
         * GET
+    * /api/callback (http not s on allowed callback thing in settings)
 * auth
     *Auth0
 
@@ -55,7 +57,7 @@
 
 
 
-## Database
+<!-- ## Database
 *tables
     * users
         *id
@@ -68,14 +70,14 @@
         *id
         *text
 * files
-    */db
+    ~~*/db~~
         *init.sql
         *get_words.sql
         *create_word.sql
         *create_profile.sql
         *read_profile.sql
         *create_user.sql
-        *read_user.sql
+        *read_user.sql -->
 
 ##NPM Packages
 
@@ -101,3 +103,8 @@
 *Postman
 *SQL Tabs
 * ~~Network tab~~
+
+##Words
+
+*photosynthasis
+*olgarchy
