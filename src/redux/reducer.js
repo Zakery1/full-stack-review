@@ -1,4 +1,4 @@
-const initalState = {
+const initialState = {
     user: null,              
 };
 
@@ -6,7 +6,7 @@ const USER_LOGIN = 'USER_LOGIN';
 const USER_LOGOUT = 'USER_LOGOUT';
 
 
-export default function reducer(state = initalState, action){
+export default function reducer(state = initialState, action){
     switch(action.type) {
         case USER_LOGIN:
             return Object.assign({}, state, { user: action.payload });
